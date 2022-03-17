@@ -1,0 +1,82 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.header{
+    background: #229FD1;
+}
+
+.header-logo img {
+	width: 244px;
+}
+
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+	display: block;
+	color: white;
+	padding: 0 25px;
+	font-size: 20px;
+	line-height: 92px;
+    border-right: 1px solid #fff;
+	
+}
+.primary-menu ul li a:hover{}
+
+
+.banner{
+	background-image: url(https://i.ibb.co/crVb45x/banner.jpg);
+	padding: 227px 0;
+	background-size: cover;
+	background-position:fixed;
+}
+
+.about{
+	background: #f3f1ef;
+}
+
+.service{
+	background: #dddcda;
+}
+
+img{
+	max-height: 80%;
+	width: 200px;
+}
+
+.product-item p{
+	font-size: 18px;
+}
+
+.product-right ul{
+	list-style: none;
+	padding-left: 0;
+}
+.product-right ul li{
+	background: #f7f7f7;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	
+}
+
+.footer {
+	background: black;
+}
+
+.footer p{
+	margin-bottom: 0;
+}
+
+.footer a{
+	color: #fff;
+	margin-left:15px ;
+	display: inline-block;
+}
